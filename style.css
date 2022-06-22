@@ -1,0 +1,16 @@
+body{
+	
+	font-family: Roboto Slab; serif;
+}
+
+
+#home,#skills,#gallery{
+	height: 100vh;
+}
+#home-icons{
+	position: absolute;
+	bottom: 0;
+}
+#home-right{
+	padding: 20% 20% 20% 0%;
+}
