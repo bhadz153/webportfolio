@@ -4,13 +4,32 @@ body{
 }
 
 
-#home,#skills,#gallery{
-	height: 100vh;
-}
-#home-icons{
-	position: absolute;
-	bottom: 0;
-}
+
+
 #home-right{
 	padding: 20% 20% 20% 0%;
+}
+
+@media only screen and (min-width: 768px) {
+  / For desktop: /
+  #home,#skills,#gallery,#contact-me{
+	min-height: 100vh;
+	}
+}
+
+#navigation-container{
+	background-color: #86d0df;
+}
+
+#home{
+	background-color: #D7CEB2;
+	margin-top: 50px;
+}
+
+#skills{
+	background-color: #14213D;
+}
+
+#gallery{
+	background-color: #023436;
 }
